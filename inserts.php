@@ -24,7 +24,7 @@ $sql = "INSERT INTO guestbook (
     age,
     phone,
     email,
-    'password'
+    password
     ) VALUES ('".$firstname."', '".$lastname."', '".$gender."', '".$age."', '".$phone."', '".$email."', '".$password."')";
 
 
