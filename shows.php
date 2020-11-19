@@ -14,7 +14,7 @@
   <head>
 <style>
     .card {
-			border-top: solid 5px #ffc107;
+			border-top: solid 5px #0000ff;
 		}
 #customers {
   font-family: Arial, Helvetica, sans-serif;
