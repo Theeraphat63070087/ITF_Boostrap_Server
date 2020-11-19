@@ -2,7 +2,6 @@
 <head>
 <title>ITF Lab</title>
 <head>
-    <title>Bootstrap Example</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -58,7 +57,7 @@ $res = mysqli_query($conn, 'SELECT * FROM guestbook');
 				<div class="card shadow">
 					<div class="card-body">
 						<div class="row">
-							<div class="col-6"><h1 class="text-monospace">Data</h1></div>
+							<div class="col-6"><h1 class="text-monospace">Admin</h1></div>
 							<div class="col-6 text-right"><a href="form.php" class="btn btn-warning btn-sm font-weight-bold">ADD</a></div>
                         </div>
                         <div class="table-responsive">
