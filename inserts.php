@@ -8,9 +8,9 @@ if (mysqli_connect_errno($conn))
 }
 
 
-$name = $_POST['Name'];
-$comment = $_POST['Comment'];
-$link = $_POST['Link'];
+$Name = $_POST['Name'];
+$Comment = $_POST['Comment'];
+$Link = $_POST['Link'];
 
 
 $sql = "INSERT INTO guestbook (Name , Comment , Link) VALUES ('$Name', '$Comment', '$Link')";
