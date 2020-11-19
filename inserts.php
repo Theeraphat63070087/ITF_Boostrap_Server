@@ -7,13 +7,30 @@ if (mysqli_connect_errno($conn))
     die('Failed to connect to MySQL: '.mysqli_connect_error());
 }
 
+$firstname = $_POST['firstname'];
+$lastname = $_POST['lastname'];
+$gender = $_POST['gender'];
+$age = $_POST['age'];
+$phone = $_POST['phone'];
+$email = $_POST['email']
 
-$Name = $_POST['Name'];
-$Comment = $_POST['Comment'];
-$Link = $_POST['Link'];
 
 
-$sql = "INSERT INTO guestbook (Name , Comment , Link) VALUES ('$Name', '$Comment', '$Link')";
+$sql = "INSERT INTO guestbook (
+    firstname, 
+    lastname,
+    gender,
+    age,
+    phone,
+    email
+    ) VALUES (
+    '$firstname',
+    '$lastname',
+    '$gender',
+    '$age',
+    '$phone',
+    '$email'
+    )";
 
 
 if (mysqli_query($conn, $sql)) {
