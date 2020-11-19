@@ -51,7 +51,7 @@ if (mysqli_connect_errno($conn))
 }
 $res = mysqli_query($conn, 'SELECT * FROM guestbook');
 ?>
-<body class="bg-light py-5">
+<body class="bg-light py-9">
 	<div class="container text-dark">
 		<div class="row">
 			<div class="col-12 col-lg-8 offset-lg-2">
