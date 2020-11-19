@@ -23,14 +23,7 @@ $sql = "INSERT INTO guestbook (
     age,
     phone,
     email
-    ) VALUES (
-    '$firstname',
-    '$lastname',
-    '$gender',
-    '$age',
-    '$phone',
-    '$email'
-    )";
+    ) VALUES ('".$firstname."', '".$lastname."', '".$gender."', '".$age."', '".$phone."', '".$email."')";
 
 
 if (mysqli_query($conn, $sql)) {
