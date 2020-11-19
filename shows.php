@@ -51,10 +51,10 @@ if (mysqli_connect_errno($conn))
 }
 $res = mysqli_query($conn, 'SELECT * FROM guestbook');
 ?>
-<body class="bg-light py-9">
+<body class="bg-light py-6">
 	<div class="container text-dark">
 		<div class="row">
-			<div class="col-12 col-lg-8 offset-lg-2">
+			<div class="col-15 col-lg-8 offset-lg-2">
 				<div class="card shadow">
 					<div class="card-body">
 						<div class="row">
@@ -62,7 +62,7 @@ $res = mysqli_query($conn, 'SELECT * FROM guestbook');
 							<div class="col-6 text-right"><a href="form.php" class="btn btn-warning btn-sm font-weight-bold">ADD</a></div>
                         </div>
                         <div class="table-responsive">
-<table width="600" border="1" id="customers">
+<table width="900" border="1" id="customers">
   <tr>
     <th width="100"> <div align="center">First Name</div></th>
     <th width="100"> <div align="center">Last Name </div></th>
