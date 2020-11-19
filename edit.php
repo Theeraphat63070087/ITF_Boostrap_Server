@@ -73,7 +73,7 @@
       </div>
       <div class="form-group col-md-6">
         <label for="inputPassword4">Password</label>
-        <input type="password" class="form-control" id="inputPassword4" placeholder="Password" value="<?php echo $data['password']; ?>">
+        <input type="password" class="form-control" id="inputPassword4" placeholder="Password" name="password" value="<?php echo $data['password']; ?>">
       </div>
     </div>
 							<div class="text-center">

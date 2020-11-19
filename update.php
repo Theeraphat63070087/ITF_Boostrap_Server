@@ -8,9 +8,10 @@
     $phone = $_POST['phone'];
     $email = $_POST['email'];
     $id = $_POST['id'];
+    $password = $_POST['password'];
     
 
-	$sql = 'UPDATE guestbook SET firstname = "'.$firstname.'", lastname = "'.$lastname.'", gender = "'.$gender.'", age = "'.$age.'", phone = "'.$phone.'", email = "'.$email.'" WHERE ID = '.$id.'';
+	$sql = 'UPDATE guestbook SET firstname = "'.$firstname.'", lastname = "'.$lastname.'", gender = "'.$gender.'", age = "'.$age.'", phone = "'.$phone.'", email = "'.$email.'", password = "'.$password.'" WHERE ID = '.$id.'';
 ?>
 <!DOCTYPE html>
 <html>

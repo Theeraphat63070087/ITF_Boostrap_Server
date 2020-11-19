@@ -13,6 +13,7 @@ $gender = $_POST['gender'];
 $age = $_POST['age'];
 $phone = $_POST['phone'];
 $email = $_POST['email'];
+$password = $_POST['password'];
 
 
 
@@ -22,8 +23,9 @@ $sql = "INSERT INTO guestbook (
     gender,
     age,
     phone,
-    email
-    ) VALUES ('".$firstname."', '".$lastname."', '".$gender."', '".$age."', '".$phone."', '".$email."')";
+    email,
+    password
+    ) VALUES ('".$firstname."', '".$lastname."', '".$gender."', '".$age."', '".$phone."', '".$email."', '".password."')";
 
 
 if (mysqli_query($conn, $sql)) {
