@@ -54,7 +54,7 @@ $res = mysqli_query($conn, 'SELECT * FROM guestbook');
 <body class="bg-light py-6">
 	<div class="container text-dark">
 		<div class="row">
-			<div class="col-15 col-lg-8 offset-lg-2">
+			<div class="col-12 col-lg-10 offset-lg-1">
 				<div class="card shadow">
 					<div class="card-body">
 						<div class="row">
@@ -62,15 +62,15 @@ $res = mysqli_query($conn, 'SELECT * FROM guestbook');
 							<div class="col-6 text-right"><a href="form.php" class="btn btn-warning btn-sm font-weight-bold">ADD</a></div>
                         </div>
                         <div class="table-responsive">
-<table border="1" id="customers" class='table'>
+<table width="900" border="1" id="customers">
   <tr>
-    <th> <div align="center">First Name</div></th>
-    <th> <div align="center">Last Name </div></th>
-    <th> <div align="center">Gender </div></th>
-    <th> <div align="center">Age </div></th>
-    <th> <div align="center">Phone Number </div></th>
-    <th> <div align="center">Email </div></th>
-    <th> <div align="center">Action </div></th>
+    <th width="100"> <div align="center">First Name</div></th>
+    <th width="100"> <div align="center">Last Name </div></th>
+    <th width="100"> <div align="center">Gender </div></th>
+    <th width="100"> <div align="center">Age </div></th>
+    <th width="100"> <div align="center">Phone Number </div></th>
+    <th width="100"> <div align="center">Email </div></th>
+    <th width="100"> <div align="center">Action </div></th>
 
   </tr>
 <?php
