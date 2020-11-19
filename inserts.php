@@ -12,7 +12,7 @@ $lastname = $_POST['lastname'];
 $gender = $_POST['gender'];
 $age = $_POST['age'];
 $phone = $_POST['phone'];
-$email = $_POST['email']
+$email = $_POST['email'];
 
 
 
