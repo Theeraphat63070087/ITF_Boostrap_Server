@@ -13,6 +13,9 @@
   </head>
   <head>
 <style>
+    .card {
+			border-top: solid 5px #ffc107;
+		}
 #customers {
   font-family: Arial, Helvetica, sans-serif;
   border-collapse: collapse;
@@ -48,6 +51,17 @@ if (mysqli_connect_errno($conn))
 }
 $res = mysqli_query($conn, 'SELECT * FROM guestbook');
 ?>
+<body class="bg-light py-5">
+	<div class="container text-dark">
+		<div class="row">
+			<div class="col-12 col-lg-8 offset-lg-2">
+				<div class="card shadow">
+					<div class="card-body">
+						<div class="row">
+							<div class="col-6"><h1 class="text-monospace">Data</h1></div>
+							<div class="col-6 text-right"><a href="form.php" class="btn btn-warning btn-sm font-weight-bold">ADD</a></div>
+                        </div>
+                        <div class="table-responsive">
 <table width="600" border="1" id="customers">
   <tr>
     <th width="100"> <div align="center">First Name</div></th>
@@ -79,5 +93,11 @@ while($Result = mysqli_fetch_array($res))
 <?php
 mysqli_close($conn);
 ?>
+                        </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </body>
 </html>
