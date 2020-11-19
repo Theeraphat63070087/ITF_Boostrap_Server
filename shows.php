@@ -58,7 +58,7 @@ $res = mysqli_query($conn, 'SELECT * FROM guestbook');
 					<div class="card-body">
 						<div class="row">
 							<div class="col-6"><h1 class="text-monospace">Admin</h1></div>
-							<div class="col-6 text-right"><a href="form.php" class="btn btn-warning btn-sm font-weight-bold">ADD</a></div>
+							<div class="col-6 text-right"><a href="form.html" class="btn btn-warning btn-sm font-weight-bold">ADD</a></div>
                         </div>
                         <div class="table-responsive">
 <table width="900" border="1" id="customers">
